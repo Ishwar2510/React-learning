@@ -1,0 +1,131 @@
+ques =what is framework?
+ans =framework are foundation over which we build something 
+for eample wix le lo . pehle hi ushme sabkush hai tumko thoda s aapna kuch add karn ahai aur site ready
+
+ques =what is library?
+ans =libarary is somrthing which consists of certian functions i.e method so that to do a specific task u ndo not need to re-invent the 
+wheel again... function are already defined just use it.. 
+examplde(Math.pow(a,b));
+
+
+ques== what is react?
+ans= ReactJs is a javascript library for building user interfaces
+
+the purpose of react is to create beautiful UI 
+React is a JavaScript library for building user interfaces.
+
+React is used to build single-page applications.
+
+React allows us to create reusable UI components
+React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.
+
+React is a tool for building UI components.
+
+How does React Work?
+React creates a VIRTUAL DOM in memory.
+
+Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM.
+
+React only changes what needs to be changed!
+
+React finds out what changes have been made, and changes only what needs to be changed.
+
+You will learn the various aspects of how React does this in the rest of this tutorial.
+
+o use React in production, you need npm which is included with Node.js.
+
+To get an overview of what React is, you can write React code directly in HTML.
+
+But in order to use React in production, you need npm and Node.js installed.
+
+
+
+
+// Data Base
+
+
+// what is react js
+// why we need raectjs
+//
+cretae rect applivation
+babel
+ract js i slibrary usex to generate Ui components
+Where as as Angular  and view js is framwworks
+advantage of react -- based on componenets
+ease process to create web faster
+with js we need to select query selector
+// but when we use react it automatically upates itself no need to call js every time
+react offer us re usable code
+applies  principle of dry
+
+
+identiofy the componenets
+and how can u use react in this
+React is a component based writing
+
+// creating  a new project
+
+npm and npx
+
+npm node package manager
+npm open source -> node react etc, bugs help 
+npm are packages just like imprt java.util.*;
+it has many methods alreday defined
+whwnevr u r trying ti include apackage see users and current one
+
+webpack and babel
+
+when u create a create project it loads the npm module which have all the 
+pre-defined functionalities in  it 
+for every cpmponents we need to have seprate file i.e seprate modile
+// always add components insise the src folder itself
+ways to export 
+1=> write export at declaration
+2=> use export default App          use import App frm './file path'
+components are  self closing tag
+
+when u create a react app 
+it will create every necessary file and u have to code where
+the space is provided 
+all components need to be in upper changesneed to have import React from "react" 
+
+index.js =. from wher code is transferd  to HTML
+App.js is paren to all componenets
+componenets are package code .. tht ie it can be resued multiple times
+class ko className se Change karna hoga
+go to the folder and type npm install and the node module will be installed
+
+
+code to create react app
+step 1= go to cmd 
+step 2= go to the folder wher to create the app
+step 3= type npx create-react-app appname    // here app name can be anything
+step4 = once done all the files necesaary wil be created
+
+
+
+when u clone a repository of an react application u donot have access
+to the node module as node modules are of large size 
+u need to install node module on ut own for that cloned project
+just type npm install an the node module will be installed;
+
+
+import bla from blapath
+export default bla 
+
+import React from 'react" har ek component k file par likhna hota hai
+
+
+with the use of state only we can render-change or update componenets.
+int html we used to selecet using queryselector and all in this we just need to change the statestate is function ecxported from 
+react
+exx
+inr react file it will have something like this 
+export default React;
+export{useState} or export useState  // pls note that there can be only one default export for any particular componenets
+
+
+Recat Hooks
+react hooks were made so that we can use state int functional component also apart from class component
+it doesnot work inside classes 
+can be used only in functional components
