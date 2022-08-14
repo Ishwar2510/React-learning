@@ -30,7 +30,7 @@ function Form(){
         <>
         <form onSubmit={formSubmit}>
             fname:
-            <input required type ="text"name="fname"value={formData.fname} onChange={eventChange}></input><br/><br/>
+            <input required type ="text" name="fname" value={formData.fname} onChange={eventChange}></input><br/><br/>
             lname:
             <input required type ="text" name ="lname"value={formData.lname} onChange={eventChange}></input><br/><br/>
             phoneNumber:
