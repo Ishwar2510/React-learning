@@ -1,5 +1,5 @@
 ques =what is framework?
-ans =framework are foundation over which we build something 
+ans =framework are foundation over which we build something example Django 
 for eample wix le lo . pehle hi ushme sabkush hai tumko thoda s aapna kuch add karn ahai aur site ready
 
 ques =what is library?
@@ -32,7 +32,7 @@ React finds out what changes have been made, and changes only what needs to be c
 
 You will learn the various aspects of how React does this in the rest of this tutorial.
 
-o use React in production, you need npm which is included with Node.js.
+to use React in production, you need npm which is included with Node.js.
 
 To get an overview of what React is, you can write React code directly in HTML.
 
@@ -126,6 +126,20 @@ export{useState} or export useState  // pls note that there can be only one defa
 
 
 Recat Hooks
-react hooks were made so that we can use state int functional component also apart from class component
+react hooks were made so that we can use states in functional component also apart from class component
 it doesnot work inside classes 
 can be used only in functional components
+
+
+
+
+// context-api 
+creates a central storage ar3 
+mycontext=React.createContext
+mycontext.provider value={{}}
+mycontext.consumer
+
+usecontext is syantatical sugar over mycontext.consumer   const consumerc=useState(mycontext) kaun sa context us ekarn ahai pass karao
+
+we can also make custom hooks
+
